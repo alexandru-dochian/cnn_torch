@@ -2,6 +2,8 @@
 
 ### Convolution 2D diagram
 
+The custom vectorized Conv2D has been implemented in [conv2d_vectorized.ipynb](./conv2d_vectorized.ipynb)
+
 ```mermaid
 graph LR
   A(input_batch)
@@ -45,6 +47,5 @@ graph LR
     I --> R --> J
     J --> S --> K
   end
-
 
 ```
